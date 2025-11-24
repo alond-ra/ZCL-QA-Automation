@@ -2,7 +2,11 @@ describe('API Testing - ReqRes.in', () => {
     const baseUrl = 'https://reqres.in/api'
     
     it('should GET users list and validate response', () => {
-        cy.request('GET', `${baseUrl}/users?page=2`)
+        cy.request({
+                method:'GET',
+                url: `${baseUrl}/users?page=2`,
+                headers: { 'x-api-key': 'reqres-free-v1' }
+        })
             .then((response) => {
                 expect(response.status).to.equal(200)
                 
