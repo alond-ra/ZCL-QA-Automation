@@ -20,7 +20,7 @@
    npx install
     ```
 
-### Running Tests:
+## Running Tests:
 
 ### Run all Tests (headless): 
 ```bash
@@ -44,9 +44,8 @@ npx cypress run --spec "**/API-testing.*"
 npx cypress open
 ```
 ![Screenshot Part 1](https://github.com/alond-ra/ZCL-QA-Automation/blob/master/screenshots/testexec.gif)
-
-- **Part 1 Tests:** `cypress/e2e/login.cy.js`
-- **Part 2 Screenshots:** `cypress/screenshots/Part 2 Spot the Differences/Differences.pdf`
-- **Part 3 Tests:** `cypress/e2e/API-testing.cy.js`
-
     
+## Solutions:
+- [Part 1 Tests:](https://github.com/alond-ra/ZCL-QA-Automation/blob/master/cypress/e2e/login.cy.js) `cypress/e2e/login.cy.js`
+- [Part 2:](https://github.com/alond-ra/ZCL-QA-Automation/tree/master/screenshots/Part%202%20Spot%20the%20Differences) `cypress/screenshots/Part 2 Spot the Differences/Differences.pdf`
+- [Part 3 Tests:](https://github.com/alond-ra/ZCL-QA-Automation/blob/master/cypress/e2e/API-testing.cy.js) `cypress/e2e/API-testing.cy.js`
