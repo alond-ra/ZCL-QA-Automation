@@ -31,19 +31,19 @@ npx cypress run
 ```bash
 npx cypress run --spec "**/login.*"
 ```
-![Screenshot Part 1](screenshots\part1.png)
+![Screenshot Part 1](https://github.com/alond-ra/ZCL-QA-Automation/blob/master/screenshots/part1.png)
 
 ### Running only Part 3: API Testing Task tests: 
 ```bash
 npx cypress run --spec "**/API-testing.*"
 ```
-![Screenshot Part 3](screenshots\part3.png)
+![Screenshot Part 3](https://github.com/alond-ra/ZCL-QA-Automation/blob/master/screenshots/part3.png)
 
 ### Open Cypress Test Runner:
 ```bash
 npx cypress open
 ```
-![Screenshot Part 1](screenshots\testexec.gif)
+![Screenshot Part 1](https://github.com/alond-ra/ZCL-QA-Automation/blob/master/screenshots/testexec.gif)
 
 - **Part 1 Tests:** `cypress/e2e/login.cy.js`
 - **Part 2 Screenshots:** `cypress/screenshots/Part 2 Spot the Differences/Differences.pdf`
