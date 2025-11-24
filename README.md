@@ -23,24 +23,24 @@
 ### Running Tests:
 
 ### Run all Tests (headless): 
-    ```bash
-   npx cypress run
-    ```
+```bash
+npx cypress run
+```
 
 ### Running only Part 1: Automation Script tests: 
-    ```bash
-   npx cypress run --spec "**/login.*"
-    ```
+```bash
+npx cypress run --spec "**/login.*"
+```
 
 ### Running only Part 3: API Testing Task tests: 
-    ```bash
-   npx cypress run --spec "**/API-testing.*"
-    ```
+```bash
+npx cypress run --spec "**/API-testing.*"
+```
 
 ### Open Cypress Test Runner:
-    ```bash
-   npx cypress open
-    ```
+```bash
+npx cypress open
+```
 
 
     
